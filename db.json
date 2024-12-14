@@ -1,14 +1,374 @@
 {
-  "users": [
+  "products": [
     {
       "id": 1,
-      "name": "John Doe",
-      "age": 25
+      "name": "Madewell",
+      "discountPrice": "15.97",
+      "discountPercent": "42",
+      "originalPrice": "28.00",
+      "rating": "5",
+      "imgUrl": "https://n.nordstrommedia.com/it/1f005099-2908-4c91-89e2-5904537fb4d8.jpeg"
     },
     {
       "id": 2,
-      "name": "Jane Smith",
-      "age": 30
+      "name": "Jean Paul Gaultier",
+      "discountPrice": "39.97",
+      "discountPercent": "33",
+      "originalPrice": "60.00",
+      "rating": "196",
+      "imgUrl": "https://n.nordstrommedia.com/it/1487d537-dfee-4dac-b122-cd96c85e4c17.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Free People",
+      "discountPrice": "24.97",
+      "discountPercent": "67",
+      "originalPrice": "78.00",
+      "rating": "52",
+      "imgUrl": "https://n.nordstrommedia.com/it/e6015671-8485-4b15-8536-315afaae8934.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Kate Spade New York",
+      "discountPrice": "19.97",
+      "discountPercent": "48",
+      "originalPrice": "39.00",
+      "rating": "128",
+      "imgUrl": "https://n.nordstrommedia.com/it/3e1967b3-a07b-4d10-89a3-3f49ea2a693b.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Leith",
+      "discountPrice": "15.97",
+      "discountPercent": "57",
+      "originalPrice": "38.00",
+      "rating": "10",
+      "imgUrl": "https://n.nordstrommedia.com/it/be8f0be2-8bef-4241-aa55-a3da7eed601a.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Original Penguin",
+      "discountPrice": "14.97",
+      "discountPercent": "53",
+      "originalPrice": "32.00",
+      "rating": "16",
+      "imgUrl": "https://n.nordstrommedia.com/it/4515e746-31ba-4c5f-9be2-127461f31024.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Adornia",
+      "discountPrice": "32.97",
+      "discountPercent": "81",
+      "originalPrice": "175.00",
+      "rating": "279",
+      "imgUrl": "https://n.nordstrommedia.com/it/4cc34ec8-8462-4929-af03-0dced14a2738.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Nike",
+      "discountPrice": "16.97",
+      "discountPercent": "5",
+      "originalPrice": "18.00",
+      "rating": "54",
+      "imgUrl": "https://n.nordstrommedia.com/it/4002e5e1-c821-47f5-8ee5-2fb06d26ec05.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "NEST New York",
+      "discountPrice": "34.97",
+      "discountPercent": "41",
+      "originalPrice": "60.00",
+      "rating": "78",
+      "imgUrl": "https://n.nordstrommedia.com/it/7d870315-c4f4-4c3e-97ac-68869f9b783b.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "NORDSTORM RACK",
+      "discountPrice": "9.97",
+      "discountPercent": "74",
+      "originalPrice": "39.50",
+      "rating": "77",
+      "imgUrl": "https://n.nordstrommedia.com/it/f6198752-43a6-45a8-a93a-08b41ce0ed5a.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Calvin Klein",
+      "discountPrice": "19.97",
+      "discountPercent": "53",
+      "originalPrice": "42.50",
+      "rating": "168",
+      "imgUrl": "https://n.nordstrommedia.com/it/a86bd086-3847-4d72-8b5b-2cd6780bbd7c.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "MIA",
+      "discountPrice": "11.98-19.97",
+      "discountPercent": "76",
+      "originalPrice": "49.99",
+      "rating": "31",
+      "imgUrl": "https://n.nordstrommedia.com/it/5b493098-aa6d-4e87-9ccf-c97c33046236.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Adornia",
+      "discountPrice": "23.98",
+      "discountPercent": "84",
+      "originalPrice": "155.00",
+      "rating": "78",
+      "imgUrl": "https://n.nordstrommedia.com/it/ced19022-9bf2-4f94-adfd-e8044ee93d57.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Olaplex",
+      "discountPrice": "12.50",
+      "discountPercent": "26",
+      "originalPrice": "17.00",
+      "rating": "3032",
+      "imgUrl": "https://n.nordstrommedia.com/it/f3579008-b6f1-49c1-a15a-90987bfb683d.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Tommy Bahama",
+      "discountPrice": "29.97",
+      "discountPercent": "50",
+      "originalPrice": "60.00",
+      "rating": "21",
+      "imgUrl": "https://n.nordstrommedia.com/it/64261ec9-2779-4fc0-a6d7-69d171aabf50.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Calvin Klein",
+      "discountPrice": "19.97",
+      "discountPercent": "57",
+      "originalPrice": "47.50",
+      "rating": "100",
+      "imgUrl": "https://n.nordstrommedia.com/it/a8131f34-222c-49c3-b54e-d65d02dbadd1.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Adornia",
+      "discountPrice": "19.98",
+      "discountPercent": "84",
+      "originalPrice": "130.00",
+      "rating": "166",
+      "imgUrl": "https://n.nordstrommedia.com/it/6d6cb982-092e-4a17-98eb-13c480970862.jpeg"
+    },
+    {
+      "id": 19,
+      "name": "Clinique",
+      "discountPrice": "0",
+      "discountPercent": "0",
+      "originalPrice": "25.00",
+      "rating": "1956",
+      "imgUrl": "https://n.nordstrommedia.com/it/114a869d-e669-4adb-9c12-28ea2a259f68.jpeg"
+    },
+    {
+      "id": 20,
+      "name": "NORDSTORM RACK",
+      "discountPrice": "34.97",
+      "discountPercent": "64",
+      "originalPrice": "99.00",
+      "rating": "3",
+      "imgUrl": "https://n.nordstrommedia.com/id/sr3/89386cc6-9814-4dcb-bdc9-15821fc1af86.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "Stanley",
+      "discountPrice": "39.97",
+      "discountPercent": "27",
+      "originalPrice": "55.00",
+      "rating": "1",
+      "imgUrl": "https://n.nordstrommedia.com/it/d2d221cc-b61c-460e-8c70-e2218aececc3.jpeg"
+    },
+    {
+      "id": 22,
+      "name": "Nike",
+      "discountPrice": "26.97",
+      "discountPercent": "40",
+      "originalPrice": "45.00",
+      "rating": "166",
+      "imgUrl": "https://n.nordstrommedia.com/it/88cf23d2-3eb8-45c9-92ae-ca1b1fef58bd.jpeg"
+    },
+    {
+      "id": 23,
+      "name": "NORDSTORM RACK",
+      "discountPrice": "29.97",
+      "discountPercent": "45",
+      "originalPrice": "55.00",
+      "rating": "49",
+      "imgUrl": "https://n.nordstrommedia.com/it/87d5cc89-c8dc-4998-898c-56a060db1b2c.jpeg"
+    },
+    {
+      "id": 24,
+      "name": "Barefoot Dreams",
+      "discountPrice": "15.97",
+      "discountPercent": "57",
+      "originalPrice": "38.00",
+      "rating": "26",
+      "imgUrl": "https://n.nordstrommedia.com/it/73bfe1a9-d4ea-4987-a2fd-f283cd5c1b99.jpeg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Alice + Olivia",
+      "discount": "60",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/4f644171-99f9-4f53-8f25-c7a17ab5f1eb.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Barefoot Dreams",
+      "discount": "55",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/0f9fde5e-d4eb-4bb4-882a-5fd2f8b5d943.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Kate Spade New York",
+      "discount": "65",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/2368da4b-d2fd-44ca-bf17-0f68fd6d6cf5.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Outerwear & Boots",
+      "discount": "60",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/4e243927-36e3-44d3-9dfa-35bd10ceb10c.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "New Accessories Markdowns",
+      "discount": "75",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/cd71e629-84f2-4c6b-97eb-7ffeb5a55a68.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Men's Original Penguin",
+      "discount": "60",
+      "days": "3",
+      "img": "https://n.nordstrommedia.com/it/b42c6bdd-a50a-42c9-8930-531356718af0.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "New Bony Levy Fine Jewelry",
+      "discount": "50",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/acaf543e-c3cf-4c1d-be23-b8dde40b3f4e.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "BOSS",
+      "discount": "50",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/21ab6e51-6cf4-4f2e-b944-b4f3b9ed71a5.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Diamond Fine Jewelry",
+      "discount": "25",
+      "days": "0",
+      "img": "https://n.nordstrommedia.com/it/829ca34d-9c0b-4b0d-9c2f-4d5f7d5c7614.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Designer Sunglasses",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/533750c0-d014-43cb-a5a0-1e2710fb40eb.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Stuart Weitzman Shoes",
+      "discount": "60",
+      "days": "1",
+      "img": "https://n.nordstrommedia.com/it/c6fdbb2a-b03b-4323-825b-4d2841cdf271.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "AllSaints",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/94a2ba09-26e7-4b28-8dac-2a2773b2175e.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Hunter",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/ab61f578-234a-464d-b513-8f53411585aa.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Women's Work Looks",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/9b8e544e-e48a-4d23-8aa5-1402bec70919.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Women's Markdowns",
+      "discount": "70",
+      "days": "1",
+      "img": "https://n.nordstrommedia.com/it/9ac406fe-c1e0-43d7-9a5b-330ae5e1f3d0.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Deck the Halls in Denim",
+      "discount": "65",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/0433f39f-302b-411f-9b18-164c8202738d.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "New Trendy Sunglasses",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/ce95331b-4fcd-4b1f-8546-b93fd0717611.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Women's & Men's Watches",
+      "discount": "60",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/ffca4c61-ca00-4777-9b2c-4f23b1385fc9.jpeg"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Scholl's for All",
+      "discount": "0",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/289e5138-b7f5-405a-9d82-d392c4e357d0.jpeg"
+    },
+    {
+      "id": 20,
+      "name": "Skarlett Blue",
+      "discount": "50",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/c74fce07-a040-4bf6-9ae4-406b889cfb20.jpeg"
+    },
+    {
+      "id": 21,
+      "name": "New Men's Markdowns",
+      "discount": "75",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/8be8ad63-b015-4d3c-a1df-2323800dd8ac.jpeg"
+    },
+    {
+      "id": 22,
+      "name": "Roberto Cavalli",
+      "discount": "70",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/99d1f62f-05ee-4694-bb10-8adb6320958c.jpeg"
+    },
+    {
+      "id": 23,
+      "name": "Kids' Character Styles",
+      "discount": "50",
+      "days": "2",
+      "img": "https://n.nordstrommedia.com/it/012ffb6d-5657-4b5b-a827-33bcaae00b1d.jpeg"
     }
   ]
 }
